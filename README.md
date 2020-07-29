@@ -4,40 +4,36 @@
 
 # Micro Reddit Project
 
-> This is a repo for the templates that it will be useful in our daily basis as developer to keep the things in a professional way.
+I'll build a very junior version of [Reddit](https://https://www.reddit.com/) called micro-reddit.
+In this project, I’ll build the data structures necessary to support link submissions and commenting. I won’t build a front end for it because I don’t need to… I can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
 
-Additional description about the project and its features.
+Follow the steps through [PROJECT: BUILDING WITH ACTIVE RECORD](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails)
 
 ## Built With
 
-- Languages: CSS
-- Tecnologies: RoR
+- Languages: Ruby
+- Framework: RoR
 
 ## Live Demo
 
 [Live Demo Link](https://)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Plan out what data models you would need to allow users to be on the site (don’t worry about login/logout or securing the passwords right now), to submit links (“posts”), and to comment on links. Users do NOT need to be able to comment on comments… each comment refers to a Post.
+- Generate a new rails app from the command line.
+- Generate the User model and fill out the migration to get the columns you want.
+- Run the migration.
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
+For details on syntax and available methods [Rails API Documentation](https://api.rubyonrails.org/classes/ActiveRecord/Migration.html)
 
 ### Run tests
 
-### Deployment
+- Playing with validations
+- Playing with Associations
+
+
 
 
 
